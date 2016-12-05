@@ -1,0 +1,13 @@
+Sharon Gao
+CS 1501, Project 3
+
+I chose to use two classes that implement Comparator with one using rent as the value to be compared and the other using square footage.
+Although this requires double the space due to the use of two priority queues, doing so allowed me to easily implement the ability to
+search of the lowest rent and highest square footage listing. An arraylist is used to hold unique cities and each city is associated with
+a unique index. Each listing is inserted into an array of listings at the same index of its associated city. This allows for a quicker
+find when searching for city-specific items as the use of a normal PQ would require a complete iteration of all its entries when searching
+by a criteria not associated with the value determining priority. Using an arraylist pointing to a PQ array results in a constant time for
+find as all the operations (get city index from arraylist, get PQ from PQ array, get highest priority item from PQ) are O(1). The
+operation for insertion remains mostly unchanged and retains its runtime. The delete and update operations require iterating through the
+PQ to search for a match resulting in an O(N) runtime. Because my PQ does not not have the ability to search for criteria such as street
+address, zip code, or apartment number, the values of each listing have to be compared to the input in order to find the listing to update. 
