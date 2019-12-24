@@ -34,8 +34,10 @@ check if the there is unsupported unicode in the corpus list.
 <br>
 
 **cp_gen_v2.py**
--Use `python 2`
--Used for fonts in a single directory
+
+Use `python 2`
+
+Used for fonts in a single directory
 ```
 Font<br>
 ﹂arial.ttf
