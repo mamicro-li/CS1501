@@ -83,6 +83,7 @@ python cpGen.py font_dir
 **crawl_command.txt**
 
 Contains command to use google crawler.
+
 <br>
 
 
@@ -140,6 +141,7 @@ python3 unpack pack_dir
 **VM.txt**
 
 Contains VM information.
+
 <br>
 
 
@@ -155,12 +157,14 @@ python3 word_select.py -o out_dir -num max_word_of_each_length
 **Depth_detection**
 
 Demo code in `demo/demo_DCNF_FCSP_depths_prediction.m`
+
 <br>
 
 
 **Segmentation**
 
 Demo code in `pre-trained/demos/demo_im2*`
+
 <br>
 
 
