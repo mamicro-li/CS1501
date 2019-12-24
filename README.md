@@ -36,10 +36,12 @@ check if the there is unsupported unicode in the corpus list.
 **cp_gen_v2.py**
 Use `python 2`
 Used for fonts in a single directory
+```
 Font<br>
 ﹂arial.ttf<br>
   pala.ttf<br>
   ...<br>
+```
 Argument [1] is the directory of font
  ```
  python cp_gen_v2.py font_dir
