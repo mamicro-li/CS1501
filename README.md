@@ -27,6 +27,7 @@ c
 **char2index_with_blsp_es_ES.txt**
 
 Contains supported characters for packing.
+
 <br>
 
 
@@ -196,12 +197,14 @@ python3 iam_division_form.py
 **resize_color.py & resize_train_val.py**
 
 Resize IAM images to specific height. Use `python3`.
+
 <br>
 
 
 **skeletonize.py**
 
 Extract skeleton from groundtruth IAM image. Use `python3`.
+
 <br>
 
 
