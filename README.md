@@ -11,6 +11,7 @@ Results will be saved in the `output_dir`
 **blsp_adder.py**
 
 Argument [1] is the symbol file path
+
 Symbol file format: symbols are in the first column of each line
 ```
 a
