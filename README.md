@@ -5,7 +5,7 @@ Results will be saved in the `output_dir`
  ```
  python3 bashtest.py -corpus corpus_dir -out output_dir
  ```
-
+<br>
 
 **blsp_adder.py**
 
@@ -18,12 +18,12 @@ c
  ```
  python3 blsp_adder.py symbolfile.txt
  ```
-
+<br>
 
 **char2index_with_blsp_es_ES.txt**
 
 Contains supported characters for packing.
-
+<br>
 
 **check_font_exist.py**
 
@@ -31,31 +31,32 @@ check if the there is unsupported unicode in the corpus list.
  ```
  python3 check_font_exist.py -corpus corpus_dir  -font font_dir
  ```
-
+<br>
 
 **cp_gen_v2.py**
 Use `python 2`
 Used for fonts in a single directory
-Font
-﹂arial.ttf
-  pala.ttf
-  ...
+Font<br>
+﹂arial.ttf<br>
+  pala.ttf<br>
+  ...<br>
 Argument [1] is the directory of font
  ```
  python cp_gen_v2.py font_dir
 ```
+<br>
 
 
 **cpGen.py**
 
 Use python 2
 Used for fonts seperated by unicodes
-all_font
-﹂00A1
-	﹂arial.ttf
-	  calibri.ttf
-﹂00A2
-	﹂cambriab.ttf
+all_font<br>
+﹂00A1<br>
+	﹂arial.ttf<br>
+	  calibri.ttf<br>
+﹂00A2<br>
+	﹂cambriab.ttf<br>
 ...
 Argument [1] is the directory of font
 ```
@@ -84,7 +85,7 @@ Need to manually change `not_have_list` in the code.
 ```
 python3 find_font_combined.py
 ```
-
+<br>
 
 **pack.py**
 
@@ -92,7 +93,7 @@ Pack data from `output_dir` to `pack_dir`
 ```
 python3 pack.py -o output_dir -p pack_dir
 ```
-
+<br>
 
 **post_processing.py**
 
@@ -104,4 +105,4 @@ it can also be the upper directory of outputs.
 ```
 python3 post_processing.py output_dir
 ```
-
+<br>
