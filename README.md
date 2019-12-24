@@ -99,7 +99,10 @@ python3 filter_word.py
 
 **find_font_combined.py**
 
-Geneate a list:`character` `unicode_combined` `supported_fonts...`
+Geneate a list:
+
+`character` `unicode_combined` `supported_fonts...`
+
 Need to manually change `not_have_list` in the code.
 ```
 python3 find_font_combined.py
