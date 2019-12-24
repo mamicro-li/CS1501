@@ -1,7 +1,10 @@
 **bashtest.py**
+
 Corpus list contains the unicode of symbol to generate
 Results will be saved in the output_dir
- ```python3 bashtest.py -corpus corpus_dir -out output_dir```
+ ```
+ python3 bashtest.py -corpus corpus_dir -out output_dir
+ ```
 
 
 **blsp_adder.py**
@@ -14,6 +17,7 @@ c
  ```python3 blsp_adder.py symbolfile.txt```
 
 **char2index_with_blsp_es_ES.txt**
+
 Contains supported characters for packing.
 
 **check_font_exist.py**
